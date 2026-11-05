@@ -27,4 +27,5 @@ Status ListInsert_L(Linklist& L, int i, ElemType e);//在第i结点前插入值�
 Status ListDelete_L(Linklist& L, int i, ElemType &e);//将第i个结点的值删除，并通过e返回被删值
 void CreateList_H(Linklist& L, int n);//头插法创建链表
 void CreateList_R(Linklist& L, int n);//尾插法创建链表
+Linklist Connect(Linklist Ta,Linklist Tb);//带尾指针循环链表的合并
 #endif

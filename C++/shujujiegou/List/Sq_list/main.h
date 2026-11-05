@@ -24,5 +24,5 @@ int IsEmpty_Sq(Sqlist& L);//判断该顺序表是否为空
 Status GetElem_Sq(Sqlist& L, int i, ElemType& e);//得到顺序表中第i个元素的元素值
 int LocateElem_Sq(Sqlist& L, ElemType& e);//寻找和e值相同的数据位置
 Status ListInsert_Sq(Sqlist& L, int i, ElemType& e);//在位置i中插入e
-Status ListDelete_Sq(Sqlist& L, int i);//删除位置i中的元素
+Status ListDelete_Sq(Sqlist& L, int i);//删除位置i中的数据
 #endif
